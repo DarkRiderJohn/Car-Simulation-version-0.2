@@ -1,2 +1,3 @@
 # Car-Simulation-version-0.2
-Ahh! code goes like brrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr and also do pip install playsound
+first you should do pip install playsound
+and also the sound are from my drive so, you should also chage it
