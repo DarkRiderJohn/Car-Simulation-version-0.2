@@ -1,3 +1,5 @@
+# first read the read me file 
+
 from playsound import playsound
 '''
 This is the second improve version of car simulation
@@ -24,26 +26,26 @@ stop    :   stops the car only when car is running
 quit    :   closes the program
     ''')
     elif user_input == 'start' and start == True:
-        playsound('E:\ALL 2077\DarkRider\sounds\if car was started.mp3')
+        playsound('E:\ALL 2077\DarkRider\sounds\if car was started.mp3') # change here
 
     elif user_input == 'start':
-        playsound('E:\ALL 2077\DarkRider\sounds\carstartgarage.mp3')
+        playsound('E:\ALL 2077\DarkRider\sounds\carstartgarage.mp3') # change here
         start = True
 
     elif user_input == 'run' and start != True:
         print('atlest check whether engines has been started or not!')
     elif user_input == 'run' and start == True:
-        playsound('E:\ALL 2077\DarkRider\sounds\Drive off squealing tires.wav')
+        playsound('E:\ALL 2077\DarkRider\sounds\Drive off squealing tires.wav') # change here
         print("Car started running but we don't have steering")
 
     elif user_input == 'horn' and start != True:
         print('atlest check whether engines has been started or not!')
     elif user_input == 'horn' and start == True:
-        playsound('E:\ALL 2077\DarkRider\sounds\car+horn+x.mp3')
+        playsound('E:\ALL 2077\DarkRider\sounds\car+horn+x.mp3') # change here
 
 
     elif user_input == 'stop' and start == True:
-        playsound('E:\ALL 2077\DarkRider\sounds\car_brake_crash-Cam_Martinez.mp3')
+        playsound('E:\ALL 2077\DarkRider\sounds\car_brake_crash-Cam_Martinez.mp3') # change here
         print('Holyshit! close call')
         start = False
 
